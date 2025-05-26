@@ -8,7 +8,7 @@ class Hal {
     }
   }
 
-const halak = [];  
+const halak = [halLista];  
 halak['balin'] = new Hal("Balin","Leuciscus aspius","fenekeszeg, kapókeszeg, őnhal, ragadozó őn, villámkeszeg","https://hu.wikipedia.org/wiki/Balin_(halfaj)","balin.jpg");
 halak['bodorka'] = new Hal("Bodorka","Rutilus rutilus","búzaszemű keszeg","https://hu.wikipedia.org/wiki/Bodorka","bodorka.jpg");
 halak['deverkeszeg'] = new Hal("Dévérkeszeg", "Abramis brama", null, "https://hu.wikipedia.org/wiki/Dévérkeszeg","deverkeszeg.jpg");
@@ -19,7 +19,8 @@ halak['csuka'] = new Hal("Csuka","Esox lucius","csukesz, közcsuka, mátyáscsuk
 halak['compo'] = new Hal("Compó","Tinca tinca","doktorhal, cigányhal","https://hu.wikipedia.org/wiki/Compó","compo.jpg");
 halak['fejes'] = new Hal("Fejes domolykó","Squalius cephalus",null,"https://hu.wikipedia.org/wiki/Fejes_domolykó","fejes.jpg");
 halak['garda'] = new Hal("Garda","Pelecus cultratus"," sugár kardos (némely forrásokban egybeírva), balatoni hering, kardkeszeg, karda, szabóhal, vezérgarda","https://hu.wikipedia.org/wiki/Garda_(halfaj)","garda.jpg");
-halak['harcsa'] = new Hal("Európai harcsa","Silurus glanis", "harcsa, leső harcsa, pozsárharcsa, pumaharcsa, sárgaharcsa, tőkésharcsa, köves harcsa, sebes harcsa, szürke harcsa, szőke harcsa, parasztfaló, kupri, kupak, kuppancs","https://hu.wikipedia.org/wiki/Európai_harcsa","harcsa.jpg")
+halak['harcsa'] = new Hal("Európai harcsa","Silurus glanis", "harcsa, leső harcsa, pozsárharcsa, pumaharcsa, sárgaharcsa, tőkésharcsa, köves harcsa, sebes harcsa, szürke harcsa, szőke harcsa, parasztfaló, kupri, kupak, kuppancs","https://hu.wikipedia.org/wiki/Európai_harcsa","harcsa.jpg");
+halak['harcsa'] = new Hal("Európai harcsa","Silurus glanis", "harcsa, laső harcsa, sürke harcsa, szőke harcsa, parasztfaló, kupri, kupak, kuppancs","https://hu.wikipedia.org/wiki/Európai_harcsa","harcsa.jpg")
 
 function halinfo(hal){
     document.getElementById('sugo').style.display='none';
