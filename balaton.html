@@ -2,14 +2,14 @@
 <html lang="hu">
 <head>
   <meta charset="UTF-8">
-  <title>Balaton</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="balaton.css">
   <script src="jquery.min.js"></script>
   <script src="popper.min.js"></script>
   <script src="bootstrap.min.js"></script>
-  <link rel="stylesheet" href="balaton.css">
-  <link rel="stylesheet" href="balaton.js">
+  <script src="balaton.js"></script>
+  <title>Balaton</title>
 </head>
 <body>
 
@@ -27,11 +27,9 @@
       <a class="nav-link menu" data-toggle="tab" href="#menu1">Élővilág</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link menu" data-toggle="tab" href="#menu2" >Sport és Művészet</a>
+      <a class="nav-link menu" data-toggle="tab" href="#menu2">Sport és Művészet</a>
     </li>
-    <li class="nav-item">
-      
-    </li>
+   
   </ul>
 
   <!-- Tab panes -->
@@ -43,7 +41,7 @@
                 <table>
                     <tr>
                         <td>Felszíni<br>terület</td>
-                        <td>5181 km <sup>2</sup> </td>
+                        <td>5181 km²</td>
                     </tr>
                     <tr>
                         <td>Hosszúság</td>
@@ -74,10 +72,10 @@
                         <td>0 db</td>
                     </tr>
                     <tr>
-                        <td colspan="2" class="text-center">
+                        <td colspan="2" class="text-center m-0 p-0">
                             Elhelyezkedés<br>
                             <figure class="figure">
-                              <img src="map.png" class="figure-img rounded img-fluid w-100 m-0 p-0" alt="Elhelyezkedés" title="Elhelyezkedés">
+                              <img src="map.png" class="figure-img rounded img-fluid w-100" alt="Elhelyezkedés" title="Elhelyezkedés">
                               <figcaption class="figure-caption text-center">é. sz. 46° 47′, k. h. 17° 34′</figcaption>
                             </figure>
                         </td>
@@ -116,7 +114,7 @@
           <div class="row">
             <div class="col-4">
               <ul id="halLista">
-                <li onclick="halinfo('balin');">Balin</li>
+                <li onclick=getelementby id="halinfo('balin');">Balin</li>
                 <li onclick="halinfo('bodorka');">Bodorka</li>
                 <li onclick="halinfo('deverkeszeg');">Dévérkeszeg</li>
                 <li onclick="halinfo('karikakeszeg');">Karikakeszeg</li>
@@ -132,7 +130,7 @@
             <div class="col-8">
               <figure class="figure">
                 <div id="sugo">
-                  Kattint halfaj nevére, amiről többet szeretnél megtudni...
+                  Kattints a halfaj nevére, amiről többet szeretnél megtudni...
                 </div>
                 <a target="_blank" id="halURL">
                   <img id="halKep" class="figure-img rounded img-fluid w-100">
@@ -147,7 +145,7 @@
     
     <div id="menu2" class="container tab-pane fade"><br>
       <div class="row">
-        <div class="col-lg-6">
+        <div class="col-md-6">
           <h2>Sport</h2>
           <p>A magyar úszósport megszületése Szekrényessy Kálmán nevéhez fűződik, aki az első Balaton-átúszó volt. 1880. augusztus 29-én úszta át a tavat Siófok-Balatonfüred között, de ez a 14 kilométeres táv, túlságosan hosszúnak bizonyult ahhoz, hogy tömegsport-rendezvénnyé válhasson. 1967-ig Szekrényessy-emlékverseny néven megtartották még az eredeti Siófok-Balatonfüred távúszó versenyt. 1983-tól kezdődően rendezik meg a mai formájában is ismert Balaton-átúszást, a Révfülöp és Balatonboglár közti 5200 méteres távon.</p>
           <p>Szekrényessy Kálmán nevéhez számos hazai sportág meghonosítása köthető (többek között a görkorcsolya, de kerékpár szavunk megalkotóját is benne tisztelhetjük). 1879-től számos balatoni úszó, kajak, és vitorlásversenyt szervezett a tóra, sőt a Balaton mellett rendszeres léghajós repülő kirándulásokat is biztosított, hisz Zeppelin barátjaként az első magyar léghajókonstruktőrünkként is ismertté vált.</p>
@@ -156,9 +154,8 @@
             <img src="nemere2.jpg" class="figure-img rounded img-fluid w-100" alt="Nemere II. cirkáló" title="Nemere II. cirkáló">
             <figcaption class="figure-caption text-center">A Nemere II. 75-ös cirkáló (Schärenkreutzer), a Balaton legendás zászlóshajója 2015-ben</figcaption>
           </figure>
-          </div>
-
-         <div class="col-lg-6">
+        </div>
+        <div class="col-md-6">
           <h2>Művészet</h2>
           <p>A legnagyobb magyar tó a népdaloktól az irodalmon át a képzőművészetig egy sor műfaj témája lett.</p>
           <figure class="figure">
@@ -171,9 +168,7 @@
         </div>
       </div>
     </div>
-
     
-    </div>
   </div>
 </div>
 
