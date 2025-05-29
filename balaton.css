@@ -89,14 +89,15 @@ blockquote{
 #halLista{
     cursor: pointer;
     list-style-type: none;
-    padding-left: 0px;
-    margin-left: 0px;
+    padding-left: 25px;
+    margin-left: 25px;
+    text-align: right;    
 }
 
 #halLista li {
     height: 35px;
     vertical-align: middle;
-    padding: 0px;
+    padding: 25px;
     padding-right: 21px;
     line-height: 95%;
     font-size: 95%;
