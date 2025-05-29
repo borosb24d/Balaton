@@ -78,10 +78,11 @@ figcaption{
 }
 
 blockquote{
-    margin: 5px 25px;
+    margin: 10px 25px;
     border-left: 15px solid rgb(222,226,230);
     background-color: rgba(222,226,230,35%);
     font-style: italic;
+    font-size: 90%;
     border-radius: 20px;
 }
 
